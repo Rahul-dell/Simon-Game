@@ -1,6 +1,10 @@
+.wrong{
+    background-color: royalblue;
+}
+
 body{
 
-    background-color:brown;
+    background-color:rgb(61, 6, 6);
 }
 .container{
 
@@ -51,4 +55,15 @@ body{
         display:flex;
         flex-direction: column;
     }
+}
+
+    
+.flash{
+    box-shadow:0px 4px 5px 0px #DBEDF3;
+ opacity:0.5;
+}
+
+.seek{
+
+    opacity:0.5;
 }
