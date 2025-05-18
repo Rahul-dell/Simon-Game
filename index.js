@@ -89,8 +89,8 @@ function playSound(name){
             started = false;
             level =1;
            $("h1").text("Game Over, Press A Key To Restart...");
-            
-            checkThen=1;
+            c=0;
+            checkThen=0;
     
     $("body").addClass("wrong");
     setTimeout(function (){$("body").removeClass("wrong");},200);
